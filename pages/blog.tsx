@@ -17,7 +17,7 @@ export default function Blog({
 
   return (
     <Container
-      title="Blog – Lee Robinson"
+      title="Blog – Aryan Chaurasia"
       description="Thoughts on the software industry, programming, tech, videography, music, and my personal life."
     >
       <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-16">
@@ -25,9 +25,9 @@ export default function Blog({
           Blog
         </h1>
         <p className="mb-4 text-gray-600 dark:text-gray-400">
-          {`I've been writing online since 2014, mostly about web development and tech careers.
-            In total, I've written ${posts.length} articles on my blog.
-            Use the search below to filter by title.`}
+          {`Not a huge fan of writing but I do create some posts when it's required for 
+          some reason :)`}
+            {/* ${posts.length} */}
         </p>
         <div className="relative w-full mb-4">
           <input
@@ -55,7 +55,7 @@ export default function Blog({
         {!searchValue && (
           <>
             <h3 className="mt-8 mb-4 text-2xl font-bold tracking-tight text-black md:text-4xl dark:text-white">
-              Most Popular
+              Recent Posts
             </h3>
             <BlogPost
               title="Rust Is The Future of JavaScript Infrastructure"

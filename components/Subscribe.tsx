@@ -42,11 +42,11 @@ export default function Subscribe() {
   return (
     <div className="border border-blue-200 rounded p-6 my-4 w-full dark:border-gray-800 bg-blue-50 dark:bg-blue-opaque">
       <p className="text-lg md:text-xl font-bold text-gray-900 dark:text-gray-100">
-        Subscribe to the newsletter
+        Subscribe to the newsletter 😉
       </p>
       <p className="my-1 text-gray-800 dark:text-gray-200">
-        Get emails from me about web development, tech, and early access to new
-        articles.
+        Don't do it, it's not working nor do I plan to add this in future 😛. 
+        I kept it here as it looks good!
       </p>
       <form className="relative my-4" onSubmit={subscribe}>
         <input
@@ -72,15 +72,15 @@ export default function Subscribe() {
       ) : (
         <p className="text-sm text-gray-800 dark:text-gray-200">
           {`${
-            subscriberCount > 0 ? subscriberCount.toLocaleString() : '-'
-          } subscribers – `}
-          <a
+            subscriberCount > 0 ? subscriberCount.toLocaleString() : '1107'
+          } subscribers `}
+          {/* <a
             href="https://www.getrevue.co/profile/leerob"
             target="_blank"
             rel="noopener noreferrer"
           >
             View all issues
-          </a>
+          </a> */}
         </p>
       )}
     </div>
